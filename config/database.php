@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 $DATABASE_URL=parse_url('
-postgres://ntvdydzgeoryus:1c59516ad80cd83c1c88cfe5b7a373d00a78cc4146692993ecfff3eb642dc2a1@ec2-54-159-35-35.compute-1.amazonaws.com:5432/dc74opgnf2lcg1');
+postgres://ylmvllhhemopvv:e564f3ec737d27f2e149e8b3cce6fed6dec448c5eabb23e95b8f9955c12a0bf1@ec2-18-235-4-83.compute-1.amazonaws.com:5432/d9kglp95ap83uf');
 
 return [
 
@@ -72,8 +72,8 @@ return [
             'host' => isset($DATABASE_URL['host']) ? $DATABASE_URL['host'] : null,
             'port' =>  isset($DATABASE_URL['port']) ? $DATABASE_URL['port'] : null,
             'database' => isset($DATABASE_URL['path']) ? ltrim($DATABASE_URL["path"], "/") : null,
-            'username' => isset($DATABASE_URL['user101']) ? $DATABASE_URL['user101'] : null,
-            'password' => isset($DATABASE_URL['pass101']) ? $DATABASE_URL['pass101'] : null,
+            'username' => isset($DATABASE_URL['ylmvllhhemopvv']) ? $DATABASE_URL['ylmvllhhemopvv'] : null,
+            'password' => isset($DATABASE_URL['e564f3ec737d27f2e149e8b3cce6fed6dec448c5eabb23e95b8f9955c12a0bf1']) ? $DATABASE_URL['e564f3ec737d27f2e149e8b3cce6fed6dec448c5eabb23e95b8f9955c12a0bf1'] : null,
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
